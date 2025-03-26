@@ -1,0 +1,60 @@
+# Rime 特定文件
+build/
+sync/
+*.userdb/
+userdb/
+*userdb.*
+installation.yaml
+user.yaml
+
+# 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# 编辑器和IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+log/
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+.temp/
+tmp/
+
+# 编译生成的文件
+*.pyc
+*.class
+*.o
+*.so
+*.dll
+*.dylib
+
+# 包管理器
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+.python-version
+.ruby-version
+.nvmrc
+
+# 缓存文件
+.cache/
+.npm/
+.yarn/
